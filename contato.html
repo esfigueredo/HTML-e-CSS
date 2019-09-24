@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Contato</title>
+    <!‐‐[if lte IE 9]>
+        <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script> -->
+        <![endif]‐‐>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>
+                <a href="./index.html">GK Fashion</a>
+            </h1>
+            <p class="sacola">
+                Nenhum item no carrinho de compras.
+            </p>
+            <nav class="menu-principal">
+                <ul>
+                    <li><a href="#">Sua Conta</a></li>
+                    <li><a href="#">Lista de Desejos</a></li>
+                    <li><a href="./cartao_fidelidade.html">Cartão Fidelidade</a></li>
+                    <li><a href="./sobre.html">Sobre</a></li>
+                    <li> <a href="./contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main role="main">
+            <section id="contato">
+                <form>
+                    <label>Nome: </label><br>
+                        <input type="text" maxlength="20" size="40" required autofocus pattern="[a-z]{3,}"><br>
+                        <label>Email: </label><br>
+                        <input type="email" size="40" required pattern="[a-z0-9._%+-]+@[a-z0-9._]+\.[a-z]{2,}$" ><br>
+                        <label>Motivo: </label><br>
+                        <select>
+                            <option value="sugestao">Sugestão</option>
+                            <option value="critica">Critica</option>
+                            <option value="elogio">Elogio</option>
+                            <option value="outros">Outros</option>
+                          </select><br>
+                        <label>Comentario </label><br>
+                        <textarea cols="40" rows="10"></textarea><br>
+                        <button>Enviar</button>
+                      </form>
+                <footer>
+                <div id="caixa-footer">
+                    <img src="./img/logo_rodape.png" alt="Logo GK Fashion" title="Logo GK rodapé">
+                    <label>&copy; Copyright GK Fashion</label>
+                    <ul class="social">
+                        <li><a href="http://www.facebook.com/gkfashion">Facebook</a></li>
+                        <li> <a href="http://www.twitter.com/gkfashion">Twitter</a></li>
+                        <li> <a href="http://plus.google.com/gkfashion">Google+</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </main>
+    </div>
+</body>
+
+</html>
